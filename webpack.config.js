@@ -69,5 +69,6 @@ module.exports = {  //module.exports부터 무조건 쓰기 !
     devServer:{
         publicPath:'/dist',
         hot:true, // hot reload 
+        historyApiFallback:true,
     }
 }
